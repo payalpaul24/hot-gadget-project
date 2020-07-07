@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    margin-bottom: 100px;
+}
+.navbar{
+    box-shadow: 1px 1px 8px gray;
+    background-image: linear-gradient(45deg, #e66465, #9198e5);
+
+}
+.navbar-nav a{
+    font-weight: 400;
+    height: 30px;
+    padding: 2px;
+    transition: all 0.2s ease;
+}
+.navbar-nav a:hover{
+    color: khaki !important;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(180deg,lightsalmon,cyan);
+    border-image-slice: 1;
+}
+p{
+    color: gray;
+}
+.carousel-indicators li{
+    border: none;
+    width: 20px;
+    height: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #f4f811 0%, #cfc425be 100%);
+}
+
+.carousel-item{
+    padding: 20px 40px;
+}
+.buy-now{
+    background-image: linear-gradient(to bottom, #0e0d0d 0%, #413439 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.buy-now:hover{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+}
+.card{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px lightgray;
+    padding: 25px 0;
+    
+}
+.card img{
+    transition: 0.5s;
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+.categories img{
+    width: 100%;
+}
+.categories hr{
+    width: 100px;
+    margin: auto;
+    border: 2px solid;
+    border-radius: 2px;
+    border-image:linear-gradient(to bottom, yellow 0%, goldenrod 100%);
+    border-image-slice: 1;
+}
+.categories .cat-row img{
+    box-shadow: 3px 3px 8px lightgray;
+    border-radius: 10px;
+    transition: 1s;
+}
+.cat-row img:hover{
+    box-shadow: 5px 5px 10px lightgray;
+    transform: scale(1.1);
+}
+.bg-color{
+    background-color: #fceae8;
+    height: 300px;
+    border-radius: 10px;
+}
+.bg-color p{
+    color: gray;
+}
+.footer p{
+    text-align: center;
+    font-size: 12px;
+}
+
